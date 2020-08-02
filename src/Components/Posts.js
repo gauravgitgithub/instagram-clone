@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import database from '../Config/Firebase';
 import Post from './Posts/Post';
-import './Posts.css';
 
 function Posts(){
 

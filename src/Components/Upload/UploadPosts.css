@@ -1,0 +1,26 @@
+.newPost__instagram {
+	padding: 5px !important;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.imagePicker__instagram {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  bottom: 0px;
+}
+
+.imagePicker__instagram > p {
+	text-align: center;
+	color: #839192;
+}
+
+.selectFile__instagram {
+	opacity: 0;
+}
+
+.selectedImage__instagram {
+	width: 100%;
+	height: 100%;
+}
