@@ -1,0 +1,12 @@
+.header__instagram {
+	display: flex;
+	justify-content: space-between;
+	padding: 1px;
+	align-items: center;
+	border-bottom: 1px solid #ECF0F1;
+}
+
+.logo__instagram {
+	font-size: 20px;
+	font-weight: 400;
+}
