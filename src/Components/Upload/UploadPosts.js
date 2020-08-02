@@ -17,7 +17,7 @@ class UploadPosts extends Component {
   render() {
     return (
       <div className="newPost__instagram">
-        <img className="selectedImage__instagram" src={this.state.file}/>
+        <img className="selectedImage__instagram" alt="new_post" title="new_post" src={this.state.file}/>
         <div className="imagePicker__instagram">
           <p>Select Image</p>
           <input className="selectFile__instagram" type="file" onChange={this.handleChange}/>
