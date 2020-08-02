@@ -1,0 +1,63 @@
+.individualPost__instagram {
+
+}
+
+.postHead__instagram {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top : 5px;
+	border-top: 1px solid #F8F9F9;
+	border-bottom: 1px solid #F8F9F9;
+	background-color: #FBFCFC;
+}
+
+.postHead__instagram > p {
+	margin-left: 5px;
+	flex: 1;
+}
+
+.MuiAvatar-root {
+	width: 28px !important;
+	height: 28px !important;
+}
+
+.MuiButtonBase-root {
+	padding-left: 0px !important;
+	padding-top: 2px !important;
+}
+
+.userimage__instagram {
+	max-height: 100%;
+	max-width: 100%;
+	background-size: cover;
+	-webkit-box-shadow: 10px 10px 18px -12px rgba(0,0,0,0.53);
+	-moz-box-shadow: 10px 10px 18px -12px rgba(0,0,0,0.53);
+	box-shadow: 10px 10px 18px -12px rgba(0,0,0,0.53);
+}
+
+.postLikes__instagram {
+	font-size: 13px;
+    margin-top: 1px;
+}
+
+.userCatption__instagram {
+	margin-top: -20px;
+	display: flex;
+	align-items: flex-start;
+	font-size: 16px;
+	color: #616A6B;
+}
+
+.postUser__caption > b {
+	margin-right: 5px;
+	font-size: 15px !important;
+	color: #454545;
+}
+
+.MuiSvgIcon-root {
+	max-height: 25px;
+	max-width: 25px;
+	padding-right: 8px;
+	padding-top: 6px;
+}
