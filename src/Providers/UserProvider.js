@@ -12,6 +12,8 @@ class UserProvider extends Component {
     auth.onAuthStateChanged(userAuth => {
       this.setState({ user: userAuth});
     });
+
+    console.log(this.state.user);
   };
   render() {
     return (

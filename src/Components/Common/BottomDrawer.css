@@ -1,0 +1,10 @@
+.settingstab__instagram {
+	text-align: center !important;
+	position: sticky;
+	bottom: 0vh;
+	background: #fff;
+}
+
+.MuiDrawer-paperAnchorBottom {
+    padding: 18px !important;
+}

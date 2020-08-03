@@ -4,6 +4,7 @@ import React, { useState,useEffect } from 'react';
 import database from '../Config/Firebase';
 // import auth from '../Config/Firebase';
 import Post from './Posts/Post';
+import BottomDrawer from './Common/BottomDrawer';
 
 function Posts(){
 
@@ -37,6 +38,7 @@ function Posts(){
 					url= {post.url}
 				 />
 			))}
+			<BottomDrawer />
 		</div>
 	)
 }
