@@ -2,9 +2,16 @@
 	text-align: center !important;
 	position: sticky;
 	bottom: 0vh;
-	background: #fff;
+	margin: -10px !important;
+	background: #1B2631;
+	color: #F7F9F9 !important;
+	justify-content: center;
 }
 
 .MuiDrawer-paperAnchorBottom {
     padding: 18px !important;
+}
+
+.MuiButton-root {
+    color: rgba(238, 238, 238, 0.87) !important;
 }
