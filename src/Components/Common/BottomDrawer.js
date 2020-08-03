@@ -14,6 +14,8 @@ import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import LockIcon from '@material-ui/icons/Lock';
 import SettingsIcon from '@material-ui/icons/Settings';
 import './BottomDrawer.css';
+import firebase from 'firebase/app';
+import "firebase/auth";
 
 const useStyles = makeStyles({
   list: {
@@ -58,7 +60,7 @@ export default function BottomDrawer() {
       <Divider />
       <List>
         {['Change Password', 'Sign out'].map((text, index) => (
-          <ListItem button key={text}>
+          <ListItem button onClick={() => { index % 2 === 0 ? console.log('clicked') : firebase.auth().signOut()  } } key={text}>
             <ListItemIcon>{index % 2 === 0 ? <LockIcon /> : <ExitToAppIcon />}</ListItemIcon>
             <ListItemText primary={text} />
           </ListItem>
