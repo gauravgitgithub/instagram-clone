@@ -1,0 +1,108 @@
+html, body {
+	background-repeat: no-repeat;
+	background-position: cover;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #FBFCFC ;
+}
+
+.signin__instagram {
+	margin-top: 20px;
+	height: 100%;
+}
+
+.signin__instagram > h3 {
+	font-weight: 300;
+	color: #5D6D7E;
+	font-size: 1.8rem;
+}
+
+.formContainer__instagram {
+	display: inline-block;
+	justify-content: space-between;
+	margin-top: 0px;
+	width: 100%;
+}
+
+.formError__instagram {
+	color: #943126;
+	font-weight: 300;
+	font-size: 12px;
+	display: none;
+}
+
+.siginform__instagram {
+	display: inline-block;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.siginform__instagram input {
+	border-width:0px;
+	border:none;
+	border-bottom: 1px solid #D0D3D4;
+	width: 100%;
+	height: 16px;
+	background: #FBFCFC ;
+}
+
+.siginform__instagram input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.siginform__instagram p {
+	font-size: 18px;
+	font-weight: bolder;
+	color: #7DCEA0;
+}
+
+.siginform__instagram button {
+  	font-family: "Roboto", sans-serif;
+	padding: 8px;
+	margin-top: 10px;
+	width: 100%;
+	background: #7DCEA0;
+	border: 1px solid #7DCEA0;
+	color: #fff;
+	font-weight: 300;
+	font-size: 18px;
+
+}
+
+.or__instagram {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.signingoogle__instagram {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 0.2em;
+  color: rgba(0, 0, 0, 0.57);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  outline: 2px transparent;
+  padding: 10px 10px 8px 10px;
+  margin: 0 4px;
+}
+.signingoogle__instagram .logo {
+  display: inline-block;
+  float: left;
+  margin: 0 20px 0 0;
+  width: 20px;
+}
+.signingoogle__instagram:hover {
+  outline: 3px solid #BACDEF;
+  box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.4), 1px 0px 0px #e5e5e5, -1px 0px 0px #e5e5e5;
+}
+.signingoogle__instagram:active {
+  outline: none;
+  background-color: #ededed;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.4), 1px 0px 0px #e5e5e5, -1px 0px 0px #e5e5e5;
+}

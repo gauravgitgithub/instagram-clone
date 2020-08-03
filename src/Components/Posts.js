@@ -1,10 +1,16 @@
+// import React, { useState,useEffect,useContext } from 'react';
 import React, { useState,useEffect } from 'react';
+// import { UserContext } from "../Providers/UserProvider";
 import database from '../Config/Firebase';
+// import auth from '../Config/Firebase';
 import Post from './Posts/Post';
 
 function Posts(){
 
 	const [posts, setPosts] = useState([]);
+
+	// const user = useContext(UserContext);
+  	// const {photoURL, displayName, email} = user;
 
 	useEffect(() => {
 
