@@ -15,7 +15,7 @@ html, body {
 
 .signin__instagram > h3 {
 	font-weight: 300;
-	color: #5D6D7E;
+	color: #1B2631;
 	font-size: 1.8rem;
 }
 
@@ -55,7 +55,8 @@ html, body {
 .siginform__instagram p {
 	font-size: 18px;
 	font-weight: bolder;
-	color: #7DCEA0;
+	color: rgb(6,6,6);
+	color: linear-gradient(113deg, rgba(6,6,6,1) 6%, rgba(17,9,80,1) 99%);
 }
 
 .siginform__instagram button {
@@ -63,7 +64,8 @@ html, body {
 	padding: 8px;
 	margin-top: 10px;
 	width: 100%;
-	background: #7DCEA0;
+	background: rgb(6,6,6);
+	background: linear-gradient(113deg, rgba(6,6,6,1) 6%, rgba(17,9,80,1) 99%);
 	border: 1px solid #7DCEA0;
 	color: #fff;
 	font-weight: 300;
