@@ -1,0 +1,68 @@
+.profileHeading__instagram {
+	text-align: center;
+}
+
+.profileWrapper__instagram {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 19px;
+}
+
+.Profilename__instagram {
+	color: #515A5A;
+	font-weight: bolder;
+	font-size: 21px;
+}
+
+.ProfileBio__instgram {
+	margin-left:1px;
+	margin-top: 18px;
+	max-width: 80%;
+}
+
+.Profileimage__instagram {
+	background-color: #fff;
+	box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important;
+}
+
+.ProfileBio__instgram > p {
+	color: #7B7D7D;	
+}
+
+.postsCount__instagram {
+	display: inline-flex;	
+	justify-content: space-between;
+	flex: 1;
+	margin-top: -17px !important;
+	padding-left: 30px;
+	padding-right: 50px;
+}
+
+.postsCount__instagram > p {
+	color: #B2BABB;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.profileInfo__instagram {
+	position: fixed;
+	bottom: 20px !important;
+}
+
+.profileInfo__instagram > div {
+	display: flex;
+	justify-content: space-between;
+	font-style: 300;
+	font-size: 14px;
+	margin-top: -15px !important;
+}
+
+.info__instagram {
+	flex: 1;
+	padding-left: 20px;
+}
+
+.change__instagram .MuiSvgIcon-root {
+	padding-top: 10px;
+}

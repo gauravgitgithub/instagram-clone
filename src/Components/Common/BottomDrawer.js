@@ -16,6 +16,7 @@ import SettingsIcon from '@material-ui/icons/Settings';
 import './BottomDrawer.css';
 import firebase from 'firebase/app';
 import "firebase/auth";
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
   list: {
@@ -51,10 +52,12 @@ export default function BottomDrawer() {
     >
       <List>
         {['Profile', 'Posts'].map((text, index) => (
+          <Link to={index % 2 === 0 ? '/profile' : '/posts'}>
           <ListItem button key={text}>
             <ListItemIcon>{index % 2 === 0 ? <PersonIcon /> : <PlaylistAddCheckIcon />}</ListItemIcon>
             <ListItemText primary={text} />
           </ListItem>
+          </Link>
         ))}
       </List>
       <Divider />
